@@ -1,7 +1,9 @@
 [project]
 name = "getting-started"
 version = "0.1.0"
-description = "My first Python project"
+description = "My first project"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "cowsay>=6.1",
+]
